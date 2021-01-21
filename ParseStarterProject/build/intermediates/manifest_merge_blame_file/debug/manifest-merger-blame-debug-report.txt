@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (c) 2015-present, Parse, LLC.
+4  ~ All rights reserved.
+5  ~
+6  ~ This source code is licensed under the BSD-style license found in the
+7  ~ LICENSE file in the root directory of this source tree. An additional grant
+8  ~ of patent rights can be found in the PATENTS file in the same directory.
+9-->
+10<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+11    package="com.example.parseproject"
+12    android:versionCode="1"
+13    android:versionName="1.0" >
+14
+15    <uses-sdk
+16        android:minSdkVersion="16"
+16-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+17        android:targetSdkVersion="30" />
+17-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:13:5-67
+19-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:5-79
+20-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:22-76
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:15:5-80
+21-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:15:22-77
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:5-79
+22-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:22-76
+23
+24    <application
+24-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:19:5-39:19
+25        android:name="com.parse.starter.StarterApplication"
+25-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:9-43
+26        android:allowBackup="true"
+26-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.3.1] /home/mecazor/.gradle/caches/transforms-2/files-2.1/8dbd859d1cd89239b42e7382b4fc40d7/core-1.3.1/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-43
+30        android:label="@string/app_name"
+30-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-41
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme"
+32-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:24:9-40
+33        android:usesCleartextTraffic="true" >
+33-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:25:9-44
+34        <activity
+34-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:28:9-36:20
+35            android:name="com.parse.starter.MainActivity"
+35-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:13-41
+36            android:label="@string/app_name" >
+36-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:30:13-45
+37            <intent-filter>
+37-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:31:13-35:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:32:17-69
+38-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:32:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:34:17-77
+40-->/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:34:27-74
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>
