@@ -1,6 +1,6 @@
-com/parse/starter/BuildConfig.java
- com.parse.starter.BuildConfig
 com/parse/starter/StarterApplication.java
  com.parse.starter.StarterApplication
+com/parse/starter/BuildConfig.java
+ com.parse.starter.BuildConfig
 com/parse/starter/MainActivity.java
  com.parse.starter.MainActivity

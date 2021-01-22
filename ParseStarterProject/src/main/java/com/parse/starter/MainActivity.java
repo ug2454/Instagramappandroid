@@ -8,24 +8,112 @@
  */
 package com.parse.starter;
 
+import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.parse.Parse;
 import com.parse.ParseAnalytics;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
+import com.parse.ParseUser;
 
 
 public class MainActivity extends AppCompatActivity {
+    EditText username;
+    EditText password;
+    Button button;
+    TextView textView;
+    boolean isButtonTextLogin = false;
+    ParseUser user = new ParseUser();
+    String userName = "";
+    String passWord = "";
 
+    public void clickButton(View view) {
+        userName = username.getText().toString().trim();
+        passWord = password.getText().toString().trim();
+        if (!userName.matches("") && !passWord.matches("")) {
+            if (!isButtonTextLogin) {
+
+
+                System.out.println("INSIDE IF");
+
+
+                user.setUsername(userName);  //qwe
+                user.setPassword(passWord); //123
+                user.signUpInBackground(e1 -> {
+                    if (e1 == null) {
+                        Log.i("Saved", "Signed up successful");
+                        Toast.makeText(this, "Sign Up Successful!", Toast.LENGTH_SHORT).show();
+
+                    } else {
+                        Toast.makeText(this, e1.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+
+            } else {
+                ParseUser.logInInBackground(userName, passWord, (user, e) -> {
+                    if (user != null && e == null) {
+                        Log.i("user", user.getUsername());
+                        Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show();
+//                user.setEmail("uday@gmail.com");
+//                user.saveInBackground();
+                    }
+                    else{
+                        Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+            }
+        } else {
+            Toast.makeText(this, "Username and a Password are required", Toast.LENGTH_SHORT).show();
+        }
+        InputMethodManager inputMethodManager = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(),0);
+
+
+    }
+
+    public void clickTextView(View view) {
+        if (isButtonTextLogin) {
+            button.setText("Sign Up");
+            textView.setText("or, Login");
+            isButtonTextLogin = false;
+            username.setText("");
+            password.setText("");
+            username.requestFocus();
+
+        } else {
+            button.setText("Log In");
+            textView.setText("or, Sign Up");
+            isButtonTextLogin = true;
+            username.setText("");
+            password.setText("");
+            username.requestFocus();
+        }
+
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ImageView imageView = findViewById(R.id.imageView2);
+        username = findViewById(R.id.usernameEditText);
+        button = findViewById(R.id.button);
+        password = findViewById(R.id.editTextTextPassword);
+        textView = findViewById(R.id.textView);
+        imageView.setBackgroundColor(Color.rgb(255, 255, 255));
+        ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
 //        ParseObject parseObject = new ParseObject("Score");
 //        parseObject.put("username","Uday");
@@ -60,22 +148,52 @@ public class MainActivity extends AppCompatActivity {
 //           }
 //       });
 
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
-        query.whereGreaterThan("score",50);
+//        ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
+//        query.whereGreaterThan("score",50);
+//
+//        query.findInBackground((objects, e) -> {
+//            if (objects != null && e == null) {
+//                if (objects.size() > 0) {
+//                    for (ParseObject parseObject : objects) {
+//                        parseObject.put("score",parseObject.getInt("score")+20);
+//                        parseObject.saveInBackground();
+//                        Log.i("username", parseObject.getString("username"));
+//                        Log.i("score", Integer.toString(parseObject.getInt("score")));
+//                    }
+//                }
+//            }
+//        });
 
-        query.findInBackground((objects, e) -> {
-            if (objects != null && e == null) {
-                if (objects.size() > 0) {
-                    for (ParseObject parseObject : objects) {
-                        parseObject.put("score",parseObject.getInt("score")+20);
-                        parseObject.saveInBackground();
-                        Log.i("username", parseObject.getString("username"));
-                        Log.i("score", Integer.toString(parseObject.getInt("score")));
-                    }
-                }
-            }
-        });
-        ParseAnalytics.trackAppOpenedInBackground(getIntent());
+
+//
+//
+//
+//
+//        user.signUpInBackground(e -> {
+//            if(e==null){
+//                Log.i("Saved","Signed up successful");
+//
+//            }
+//            else{
+//                e.printStackTrace();
+//            }
+//        });
+
+//        ParseUser.logInInBackground("Uday","Garg",(user, e) -> {
+//            if(user!=null&&e==null){
+//                Log.i("user",user.getEmail());
+////                user.setEmail("uday@gmail.com");
+////                user.saveInBackground();
+//            }
+//        });
+
+//        ParseUser.logOut();
+//        if (ParseUser.getCurrentUser() != null) {
+//            Log.i("signed in", ParseUser.getCurrentUser().getUsername());
+//        } else {
+//            Log.i("Error", "Failed to sign in");
+//        }
+
     }
 
 }

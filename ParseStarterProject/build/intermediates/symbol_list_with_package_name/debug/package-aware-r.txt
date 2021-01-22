@@ -1537,10 +1537,13 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable insta
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1660,6 +1663,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1717,6 +1721,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextTextPassword
 id edit_query
 id end
 id enterAlways
@@ -1752,6 +1757,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView2
 id info
 id invisible
 id italic
@@ -1908,6 +1914,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1937,6 +1944,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usernameEditText
 id view_offset_helper
 id visible
 id withText
