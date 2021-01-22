@@ -8,16 +8,16 @@
         "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
         "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -42,6 +42,10 @@
     {
         "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_user.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_user.xml"
     },
     {
         "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",

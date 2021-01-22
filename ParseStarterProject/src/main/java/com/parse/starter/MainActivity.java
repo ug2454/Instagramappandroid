@@ -9,9 +9,11 @@
 package com.parse.starter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -23,10 +25,14 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.parse.ParseAnalytics;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
+import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity implements View.OnKeyListener {
     EditText username;
     EditText password;
     Button button;
@@ -35,6 +41,17 @@ public class MainActivity extends AppCompatActivity {
     ParseUser user = new ParseUser();
     String userName = "";
     String passWord = "";
+    ArrayList<String> users;
+    Intent intent;
+
+    public void showUserList(){
+        intent = new Intent(getApplicationContext(), UserActivity.class);
+        startActivity(intent);
+    }
+    public void hideKeyBoard(View view) {
+        InputMethodManager inputMethodManager = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
 
     public void clickButton(View view) {
         userName = username.getText().toString().trim();
@@ -53,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.i("Saved", "Signed up successful");
                         Toast.makeText(this, "Sign Up Successful!", Toast.LENGTH_SHORT).show();
 
+                        showUserList();
                     } else {
                         Toast.makeText(this, e1.getMessage(), Toast.LENGTH_SHORT).show();
                     }
@@ -64,10 +82,10 @@ public class MainActivity extends AppCompatActivity {
                     if (user != null && e == null) {
                         Log.i("user", user.getUsername());
                         Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show();
+                        showUserList();
 //                user.setEmail("uday@gmail.com");
 //                user.saveInBackground();
-                    }
-                    else{
+                    } else {
                         Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
@@ -76,8 +94,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "Username and a Password are required", Toast.LENGTH_SHORT).show();
         }
-        InputMethodManager inputMethodManager = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(),0);
+        hideKeyBoard(view);
 
 
     }
@@ -90,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
             username.setText("");
             password.setText("");
             username.requestFocus();
+            hideKeyBoard(view);
 
         } else {
             button.setText("Log In");
@@ -98,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
             username.setText("");
             password.setText("");
             username.requestFocus();
+            hideKeyBoard(view);
         }
 
 
@@ -113,8 +132,13 @@ public class MainActivity extends AppCompatActivity {
         password = findViewById(R.id.editTextTextPassword);
         textView = findViewById(R.id.textView);
         imageView.setBackgroundColor(Color.rgb(255, 255, 255));
-        ParseAnalytics.trackAppOpenedInBackground(getIntent());
+       if(ParseUser.getCurrentUser()!=null){
+           showUserList();
+       }
 
+
+        ParseAnalytics.trackAppOpenedInBackground(getIntent());
+        password.setOnKeyListener(this);
 //        ParseObject parseObject = new ParseObject("Score");
 //        parseObject.put("username","Uday");
 //        parseObject.put("score",200);
@@ -196,4 +220,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public boolean onKey(View view, int i, KeyEvent keyEvent) {
+        if (i == KeyEvent.KEYCODE_ENTER && keyEvent.getAction() == KeyEvent.ACTION_DOWN) {
+            System.out.println("ONKEY");
+            clickButton(view);
+        }
+        return false;
+    }
 }
