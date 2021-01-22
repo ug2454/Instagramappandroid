@@ -6,15 +6,10 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.parse.FindCallback;
-import com.parse.ParseAnalytics;
-import com.parse.ParseException;
-import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class UserActivity extends AppCompatActivity {
     ListView listView;
@@ -47,8 +42,7 @@ public class UserActivity extends AppCompatActivity {
                 }
             }
         });
-//        adapter.notifyDataSetChanged();
-//        ParseAnalytics.trackAppOpenedInBackground(getIntent());
+
 
 
     }
