@@ -23,6 +23,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.parse.starter.UserActivityFeed" />
         <activity android:name="com.parse.starter.UserActivity" />
         <activity
             android:name="com.parse.starter.MainActivity"

@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnKeyListene
 
     public void showUserList(){
         intent = new Intent(getApplicationContext(), UserActivity.class);
+        finish();
         startActivity(intent);
     }
     public void hideKeyBoard(View view) {
@@ -124,6 +125,7 @@ public class MainActivity extends AppCompatActivity implements View.OnKeyListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("Instagram");
         ImageView imageView = findViewById(R.id.imageView2);
         username = findViewById(R.id.usernameEditText);
         button = findViewById(R.id.button);
