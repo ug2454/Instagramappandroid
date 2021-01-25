@@ -128,9 +128,11 @@ public class UserActivity extends AppCompatActivity {
                 parseObject.put("username",ParseUser.getCurrentUser().getUsername());
                 parseObject.saveInBackground(e -> {
                     if(e==null){
+                        System.out.println("IN IF");
                         Toast.makeText(this, "Image is saved!", Toast.LENGTH_SHORT).show();
                     }
                     else{
+                        System.out.println("IN Else");
                         Toast.makeText(this,e.getMessage(),Toast.LENGTH_SHORT).show();
                     }
                 });

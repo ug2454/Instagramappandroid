@@ -11,12 +11,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class UserActivityFeed extends AppCompatActivity {
 
@@ -31,14 +33,16 @@ public class UserActivityFeed extends AppCompatActivity {
 //        ArrayList images = new ArrayList();
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Image");
         query.whereEqualTo("username", username);
-        query.orderByDescending("createdAt");
+        query.orderByAscending("createdAt");
         Toast.makeText(this, "User:"+username, Toast.LENGTH_SHORT).show();
         query.findInBackground((objects, e) -> {
             if(e==null){
                 if(objects.size()>0){
                     for(ParseObject object:objects){
                         ParseFile file = (ParseFile) object.get("image");
-                      file.getDataInBackground((data, e1) -> {
+
+                        file.getDataInBackground((data, e1) -> {
+
                           if(e1==null&&data!=null){
                               Bitmap bitmap = BitmapFactory.decodeByteArray(data,0,data.length);
 
@@ -47,8 +51,8 @@ public class UserActivityFeed extends AppCompatActivity {
 
 
                               imageView.setLayoutParams(new ViewGroup.LayoutParams(
-                                      ViewGroup.LayoutParams.MATCH_PARENT,
-                                      ViewGroup.LayoutParams.WRAP_CONTENT
+                                      ViewGroup.LayoutParams.MATCH_PARENT,600
+
                               ));
 
                               imageView.setImageBitmap(bitmap);

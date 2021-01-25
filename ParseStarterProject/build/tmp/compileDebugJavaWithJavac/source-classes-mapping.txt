@@ -2,9 +2,9 @@ com/parse/starter/StarterApplication.java
  com.parse.starter.StarterApplication
 com/parse/starter/BuildConfig.java
  com.parse.starter.BuildConfig
-com/parse/starter/MainActivity.java
- com.parse.starter.MainActivity
 com/parse/starter/UserActivityFeed.java
  com.parse.starter.UserActivityFeed
+com/parse/starter/MainActivity.java
+ com.parse.starter.MainActivity
 com/parse/starter/UserActivity.java
  com.parse.starter.UserActivity
