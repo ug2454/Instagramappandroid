@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".SuitDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/suitDetailImageView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/a" />
+
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:paddingLeft="30dp"
+                android:paddingBottom="50dp"
+                android:text="Price: ₹1960"
+
+                android:textAlignment="viewStart"
+                android:textColor="#888484"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:paddingLeft="30dp"
+
+
+                android:text="About the Item: "
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/descriptionTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:maxLines="15"
+
+                android:minLines="1"
+                android:paddingLeft="30dp"
+                android:text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut eleifend dui. Etiam quam dui, dictum in velit ac, tincidunt efficitur tortor. Mauris vitae magna sed mi fringilla blandit. Pellentesque et arcu odio. Duis in ipsum malesuada, ultrices justo eu, lobortis est. Nullam sit amet libero justo. Phasellus dapibus luctus est vitae dapibus. Aliquam eget lorem elit.\nAenean semper vehicula arcu, eget dignissim enim mattis efficitur. In in mollis ex. Praesent efficitur enim ac laoreet congue. Cras gravida ut lacus quis elementum. Suspendisse tincidunt efficitur diam quis efficitur. Praesent vel condimentum justo. Morbi sagittis ante id dignissim gravida. Praesent luctus posuere pharetra. Ut consectetur varius sapien eget tristique. Donec dui ex, tempor ut egestas quis, luctus sit amet justo. Morbi sit amet tortor purus. Nunc imperdiet eros mollis scelerisque tempor. Praesent eu diam purus. Curabitur vestibulum lectus feugiat iaculis finibus. Morbi fringilla, nisi vel finibus pulvinar, felis diam congue velit, a egestas tortor mi quis tortor. "
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

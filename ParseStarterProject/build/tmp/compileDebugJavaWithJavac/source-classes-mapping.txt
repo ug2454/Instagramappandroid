@@ -1,10 +1,19 @@
-com/parse/starter/StarterApplication.java
- com.parse.starter.StarterApplication
-com/parse/starter/BuildConfig.java
- com.parse.starter.BuildConfig
 com/parse/starter/UserActivityFeed.java
  com.parse.starter.UserActivityFeed
+com/parse/starter/StarterApplication.java
+ com.parse.starter.StarterApplication
 com/parse/starter/MainActivity.java
  com.parse.starter.MainActivity
 com/parse/starter/UserActivity.java
  com.parse.starter.UserActivity
+com/parse/starter/BuildConfig.java
+ com.parse.starter.BuildConfig
+com/parse/starter/SuitListActivity.java
+ com.parse.starter.SuitListActivity
+ com.parse.starter.SuitListActivity$1
+ com.parse.starter.SuitListActivity$GridAdapter
+com/parse/starter/SuitDetailsActivity.java
+ com.parse.starter.SuitDetailsActivity
+com/parse/starter/TeejTyoharMainActivity.java
+ com.parse.starter.TeejTyoharMainActivity
+ com.parse.starter.TeejTyoharMainActivity$1

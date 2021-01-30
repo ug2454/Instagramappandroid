@@ -23,17 +23,24 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.parse.starter.UserActivityFeed" />
-        <activity android:name="com.parse.starter.UserActivity" />
         <activity
-            android:name="com.parse.starter.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.parse.starter.SuitDetailsActivity"
+            android:label="Item Details" />
+        <activity
+            android:name="com.parse.starter.SuitListActivity"
+            android:label="Suit Collection" />
+        <activity android:name="com.parse.starter.TeejTyoharMainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.parse.starter.UserActivityFeed" />
+        <activity android:name="com.parse.starter.UserActivity" />
+        <activity
+            android:name="com.parse.starter.MainActivity"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

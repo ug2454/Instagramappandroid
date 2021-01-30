@@ -1,39 +1,35 @@
 [
     {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/menu_share_menu.xml.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/menu/share_menu.xml"
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_i.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/i.jpg"
     },
     {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_r.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/r.jpg"
     },
     {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_user_feed.xml.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_user_feed.xml"
-    },
-    {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_y.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/y.jpg"
     },
     {
         "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_k.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/k.jpg"
     },
     {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_t.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/t.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_p.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/p.jpg"
     },
     {
         "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
@@ -48,6 +44,134 @@
         "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_d.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/d.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_suit_list.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_suit_list.xml"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_v.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/v.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_e.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/e.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_teej_tyohar_main.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_teej_tyohar_main.xml"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_n.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/n.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_x.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/x.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_ac.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/ac.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_b.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/b.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_l.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/l.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_s.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/s.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_g.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/g.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/menu_share_menu.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/menu/share_menu.xml"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/font_saman.TTF.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/font/saman.TTF"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_z.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/z.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_h.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/h.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_list_item.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_user_feed.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_user_feed.xml"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_q.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/q.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_o.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/o.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_j.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/j.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_ab.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/ab.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_suit_details.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_suit_details.xml"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_u.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/u.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_teejtyohaar.png.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/teejtyohaar.png"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_m.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/m.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_teejlogo.xml.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/teejlogo.xml"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_w.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/w.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_f.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/f.jpg"
+    },
+    {
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_c.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/c.jpg"
+    },
+    {
         "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_main.xml"
     },
@@ -56,15 +180,7 @@
         "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_user.xml"
     },
     {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_a.jpg.flat",
+        "source": "/home/mecazor/Downloads/parseproject/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/drawable/a.jpg"
     }
 ]

@@ -20,7 +20,7 @@ import com.parse.ParseUser;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class UserActivityFeed extends AppCompatActivity {
+public class  UserActivityFeed extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
